@@ -15,8 +15,6 @@ p {
 .main {
 	display: grid;
 	margin: auto;
-	height: auto;
-	padding: auto;
   	grid-template-rows: 295px 295px;
 	grid-template-columns: 285px 400px 285px;
 	grid-gap: 10px;
