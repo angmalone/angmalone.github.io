@@ -1,16 +1,16 @@
-p:hover {
-	letter-spacing: .4em;
-	transition: all .3s ease-in;
-	border-bottom: 1px solid;
-	display: inline-block;
-}
-
 p {
 	font-family: 'Poppins', sans-serif;
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 24px;
 	letter-spacing: .1em;
+}
+
+p:hover {
+	letter-spacing: .4em;
+	transition: all .3s ease-in;
+	border-bottom: 1px solid;
+	display: inline-block;
 }
 
 main {
