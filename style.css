@@ -13,7 +13,7 @@ p {
 	letter-spacing: .1em;
 }
 
-.main {
+main {
 	display: grid;
 	margin: 0 auto;
   	grid-template-rows: 295px 295px;
