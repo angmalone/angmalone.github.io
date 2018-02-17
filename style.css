@@ -1,7 +1,7 @@
 p:hover {
 	letter-spacing: .4em;
 	transition: all .3s ease-in;
-    border-bottom: 1px solid;
+	border-bottom: 1px solid;
 	display: inline-block;
 }
 
