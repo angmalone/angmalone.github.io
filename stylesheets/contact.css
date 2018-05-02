@@ -9,8 +9,9 @@ h1 {
   color: #ce97b4;
 }
 .contact {
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 20px;
+  margin: 0 auto;
 }
 .icons {
   display: inline-flex;

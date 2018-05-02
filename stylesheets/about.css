@@ -4,7 +4,7 @@ body {
   align-content: center;
 }
 
-div {
+.about {
   margin: 0 auto;
   align-content: center;
   max-width: 600px;
