@@ -9,7 +9,7 @@ h1 {
   color: #ce97b4;
 }
 .contact {
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 20px;
 }
 .icons {
@@ -24,4 +24,10 @@ h1 {
 .github,
 .linkedin {
   margin: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
 }

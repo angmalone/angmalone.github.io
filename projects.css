@@ -1,0 +1,27 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+}
+
+.projects {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+h1,
+h3,
+a {
+  font-family: "Poppins", sans-serif;
+  color: #ae719a;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
