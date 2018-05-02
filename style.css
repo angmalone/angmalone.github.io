@@ -1,66 +1,64 @@
 p {
-	font-family: 'Poppins', sans-serif;
-	color: #ffffff;
-	font-weight: 700;
-	font-size: 24px;
-	letter-spacing: .1em;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1em;
 }
 
 p:hover {
-	letter-spacing: .4em;
-	transition: all .3s ease-in;
-	border-bottom: 1px solid;
-	display: inline-block;
+  letter-spacing: 0.4em;
+  transition: all 0.3s ease-in;
+  display: inline-block;
 }
 
 main {
-	display: grid;
-	margin: 0 auto;
-  	grid-template-rows: 295px 295px;
-	grid-template-columns: 285px 400px 285px;
-	grid-gap: 10px;
-	justify-content: center;
-	align-content: center;
-	/*found solution on stack overflow*/
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+  display: grid;
+  margin: 0 auto;
+  grid-template-rows: 295px 295px;
+  grid-template-columns: 285px 400px 285px;
+  grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+  /*found solution on stack overflow*/
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .about {
-	grid-row: 1;
-	grid-column: 1;
-	background-color: #2f2c3d;
-	text-align: center;
-	line-height: 200px;
+  grid-row: 1;
+  grid-column: 1;
+  background-color: #2f2c3d;
+  text-align: center;
+  line-height: 200px;
 }
 
 .projects {
-	grid-column: 3;
-	grid-row: 1;
-	background-color: #ae719a;
-	text-align: center;
-	line-height: 200px;
+  grid-column: 3;
+  grid-row: 1;
+  background-color: #ae719a;
+  text-align: center;
+  line-height: 200px;
 }
 
 .coronado {
-	grid-column: 2;
-	grid-row: 1;
+  grid-column: 2;
+  grid-row: 1;
 }
 .contact {
-	
-	grid-row: 2;
-	grid-column: 1;
-	background-color: #ce97b4;
-	text-align: center;
-	line-height: 200px;
+  grid-row: 2;
+  grid-column: 1;
+  background-color: #ce97b4;
+  text-align: center;
+  line-height: 200px;
 }
 
 .photos {
-	grid-column: 3;
-	grid-row: 2;
-	background-color: #efcdcb;
-	text-align: center;
-	line-height: 200px;
+  grid-column: 3;
+  grid-row: 2;
+  background-color: #efcdcb;
+  text-align: center;
+  line-height: 200px;
 }
