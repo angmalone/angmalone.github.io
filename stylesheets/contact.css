@@ -10,9 +10,9 @@ a {
   color: #ce97b4;
 }
 .contact {
-  margin-top: 100px;
   padding: 20px;
   margin: 0 auto;
+  margin-top: 75px;
 }
 .icons {
   display: inline-flex;
