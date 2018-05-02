@@ -31,4 +31,6 @@ img {
 nav {
   text-align: left;
   margin-left: 100px;
+  position: fixed;
+  top: 0;
 }
