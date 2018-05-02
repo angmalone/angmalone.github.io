@@ -4,7 +4,8 @@ body {
   align-content: center;
 }
 
-h1 {
+h1,
+a {
   font-family: "Poppins", sans-serif;
   color: #ce97b4;
 }
@@ -31,4 +32,9 @@ img {
   max-width: 100%;
   height: auto;
   width: auto;
+}
+
+nav {
+  text-align: left;
+  margin-left: 100px;
 }

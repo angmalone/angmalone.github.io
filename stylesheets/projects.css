@@ -27,3 +27,8 @@ img {
   height: auto;
   width: auto;
 }
+
+nav {
+  text-align: left;
+  margin-left: 100px;
+}
