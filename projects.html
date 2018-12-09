@@ -1,57 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Angela Malone</title>
-    <link rel="stylesheet" type="text/css" href="./stylesheets/projects.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
-</head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io"> </a>
 
-<body>
-    <nav>
-        <a href="./index.html">
-            <h3>&larr; home</h3>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
         </a>
+      </div>
+      <div id="links" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="index.html"> home </a>
+        </div>
+      </div>
     </nav>
-    <div class="projects">
-        <h1>projects</h1>
-        </br>
-        <h3>
-            <a href="https://angmalone.github.io/project-1/" target="_blank">Kevin Love Trivia</a>
-        </h3>
-        <p>Made with HTML, CSS and Javascript</p>
-        <a href="https://angmalone.github.io/project-1/" target="_blank">
-            <img src="./pics/klove.png" alt="kevin love" class="proj-img">
-        </a>
-        <p>A simple trivia game all about my favorite Cavs player </br>(who is not playing very well right now but he's trying
-            his best and that's all that counts in my book).
-            </br>
-            </br>
-            <h3>
-                <a href="https://the-wanderlist.herokuapp.com/" target="_blank">Wanderlist</a>
-            </h3>
-            <p>Made with MongoDB, Handlebars, Node, Express, CSS and Javascript</p>
-            <a href="https://the-wanderlist.herokuapp.com/" target="_blank">
-                <img src="./pics/wanderlist.png" alt="wanderlist" class="proj-img">
-            </a>
-            <p>A travel planning app that allows the user to create, view, edit and delete points of interest in cities they
-                want to visit.</p>
-            </br>
-            </br>
-            <h3>
-                <a href="http://accessible-wood.surge.sh/" target="_blank">Pip Boy 3 Billion</a>
-            </h3>
-            <p>Made with React, CSS</p>
-            <a href="http://accessible-wood.surge.sh/" target="_blank">
-                <img src="./pics/pipboynew.png" alt="pip boy" class="proj-img">
-            </a>
-            <p>A frontend application to assist those who play Fallout 4 with hacking in-game terminals and tracking the happiness
-                level of settlements they control.</p>
-    </div>
-    <img src="./pics/2.png">
-</body>
 
+    <section class="section">
+      <div class="container">
+        <h1>What I've Been Working On</h1>
+        <br />
+        <h2>Wanderlist</h2>
+        <a href="https://the-wanderlist.herokuapp.com/">deployed app</a> |
+        <a href="https://github.com/angmalone/project-2">repo</a> <br />
+
+        <img src="projects/wanderlist.png" alt="" />
+        <p>
+          A travel planning app that allows the user to create, view, edit and
+          delete points of interest in cities they want to visit.
+        </p>
+        <br />
+        <h2>Pumpbot</h2>
+        <a href="https://github.com/angmalone/bot">node repo</a> |
+        <a href="https://github.com/angmalone/advicebot">mongodb repo</a> <br />
+        <p>
+          A Slackbot that posts a random 'Tip of the Day' from a database to the
+          #announcements channel each morning of the workweek. The bot is
+          configured to keep track of what tips have and haven't been posted to
+          ensure there are no repeats posted before the entire list has been
+          used.
+        </p>
+      </div>
+    </section>
+  </body>
+  <script>
+    $(".navbar-burger").click(function() {
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+    });
+  </script>
 </html>
