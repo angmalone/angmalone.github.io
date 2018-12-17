@@ -78,6 +78,10 @@ a.navbar-item:hover {
   padding-right: 50px;
 }
 
+img {
+  max-width: 650px;
+  margin: 20px 0 20px 0;
+}
 /* 🤠 dashes 🤠 */
 
 .dash {
